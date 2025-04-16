@@ -106,7 +106,8 @@ uses
   Dragonhunter.Map.Pattern,
   Trollhunter.Item.Pattern,
   Dragonhunter.Item.Default,
-  Dragonhunter.Wander;
+  Dragonhunter.Wander,
+  Dragonhunter.Item.Level;
 
 { TMap }
 
@@ -452,6 +453,7 @@ begin
     Items := AppendToString(Items, DefaultItems.Items);
     Items := AppendToString(Items, RandomScrolls);
     Items := AppendToString(Items, RandomPotions);
+    Items := AppendToString(Items, LevelItems.GetItems(Level));
     if not MapPatterns.GetPattern.Village then
     begin
       // Add monsters
