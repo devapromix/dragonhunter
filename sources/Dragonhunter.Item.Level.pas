@@ -6,11 +6,11 @@ type
   TLevelItems = class(TObject)
   private
     FItems: string;
-    procedure LoadFromResources(const AItemLevel: Byte);
+    procedure LoadFromResources(const AItemLevel: Integer);
   public
     constructor Create;
     destructor Destroy; override;
-    function GetItems(const AItemLevel: Byte): string;
+    function GetItems(const AItemLevel: Integer): string;
   end;
 
 var
@@ -39,25 +39,26 @@ begin
   inherited;
 end;
 
-function TLevelItems.GetItems(const AItemLevel: Byte): string;
+function TLevelItems.GetItems(const AItemLevel: Integer): string;
 begin
   try
     FItems := '';
     LoadFromResources(AItemLevel);
   except
     on E: Exception do
-      Error.Add(Format('LevelItems.GetItems(%d)', [AItemLevel]),
-        E.Message);
+      Error.Add(Format('LevelItems.GetItems(%d)', [AItemLevel]), E.Message);
   end;
 end;
 
-procedure TLevelItems.LoadFromResources(const AItemLevel: Byte);
+procedure TLevelItems.LoadFromResources(const AItemLevel: Integer);
 var
   LDefaultItems: TJSONArray;
   LJSONData: TJSONData;
   I: Integer;
 begin
   try
+    if AItemLevel <= 0 or (AItemLevel > 15) then
+      Exit;
     LJSONData := TJSONData.Create;
     try
       LDefaultItems := LJSONData.LoadFromFile(Format('items.level%d.json',
