@@ -35,23 +35,6 @@ const
     RepairCategories + ',' + KeyCategories + ',' + CraftCategories + ',' +
     FoodCategories + ',' + ScrollCategories;
 
-const
-  PotionLevel3 =
-    'BASEPOTION,BASELIFEPOTION,BASEMANAPOTION,BASEMEGAPOTION,BASEOILPOTION,';
-  PotionLevel4 =
-    'NANOPOTION,NANOLIFEPOTION,NANOMANAPOTION,NANOMEGAPOTION,NANOOILPOTION,';
-  PotionLevel5 =
-    'BIGPOTION,BIGLIFEPOTION,BIGMANAPOTION,BIGMEGAPOTION,BIGOILPOTION,';
-
-  WeaponLevel3 = 'LARGEAXE,TOWERSHIELD,';
-  WeaponLevel4 = 'BROADAXE,GOTHICSHIELD,';
-  WeaponLevel5 = 'BATTLEAXE,';
-  WeaponLevel6 = 'GREATAXE,';
-  WeaponLevel7 = 'GIANTAXE,';
-
-  AmmuntLevel3 = 'RINGMAIL,';
-  AmmuntLevel4 = 'SCALEMAIL,';
-
 var
   RandomScrolls, RandomPotions: string;
 
