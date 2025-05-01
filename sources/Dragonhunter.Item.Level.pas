@@ -24,7 +24,8 @@ uses
   Dragonhunter.Resources,
   Trollhunter.Utils,
   Trollhunter.Log,
-  Trollhunter.Error;
+  Trollhunter.Error,
+  Dragonhunter.Map;
 
 { TLevelItems }
 
@@ -57,7 +58,7 @@ var
   I: Integer;
 begin
   try
-    if (AItemLevel <= 0) or (AItemLevel > 15) then
+    if (AItemLevel < 1) or (AItemLevel > MAX_LOCATION_LEVEL) then
       Exit;
     LJSONData := TJSONData.Create;
     try

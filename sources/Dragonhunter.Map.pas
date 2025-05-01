@@ -14,6 +14,9 @@ uses
   Trollhunter.Map.Generator;
 
 const
+  MAX_LOCATION_LEVEL = 15;
+
+const
   FloorSet = [tlFloor, tlGrass];
 
 type

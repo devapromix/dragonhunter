@@ -36,8 +36,6 @@ const
     FoodCategories + ',' + ScrollCategories;
 
 const
-  PotionLevel2 =
-    'NORMPOTION,NORMLIFEPOTION,NORMMANAPOTION,NORMMEGAPOTION,NORMOILPOTION,';
   PotionLevel3 =
     'BASEPOTION,BASELIFEPOTION,BASEMANAPOTION,BASEMEGAPOTION,BASEOILPOTION,';
   PotionLevel4 =
@@ -45,34 +43,14 @@ const
   PotionLevel5 =
     'BIGPOTION,BIGLIFEPOTION,BIGMANAPOTION,BIGMEGAPOTION,BIGOILPOTION,';
 
-  WeaponLevel2 = 'WARAXE,LONGBOW,SIEGECROSSBOW,LARGESHIELD,';
   WeaponLevel3 = 'LARGEAXE,TOWERSHIELD,';
   WeaponLevel4 = 'BROADAXE,GOTHICSHIELD,';
   WeaponLevel5 = 'BATTLEAXE,';
   WeaponLevel6 = 'GREATAXE,';
   WeaponLevel7 = 'GIANTAXE,';
 
-  AmmuntLevel2 = 'STUDDEDLEATHER,HELM,HEAVYBOOTS,';
   AmmuntLevel3 = 'RINGMAIL,';
   AmmuntLevel4 = 'SCALEMAIL,';
-  AmmuntLevel5 = '';
-  AmmuntLevel6 = '';
-  AmmuntLevel7 = '';
-
-  RarityLevel2 = 'FIRERING,';
-  RarityLevel3 = '';
-  RarityLevel4 = '';
-  RarityLevel5 = '';
-  RarityLevel6 = '';
-  RarityLevel7 = '';
-
-  ScrollLevel1 = '';
-  ScrollLevel2 = '';
-  ScrollLevel3 = '';
-  ScrollLevel4 = '';
-  ScrollLevel5 = '';
-  ScrollLevel6 = '';
-  ScrollLevel7 = '';
 
 var
   RandomScrolls, RandomPotions: string;
