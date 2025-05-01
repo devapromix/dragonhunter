@@ -57,7 +57,7 @@ var
   I: Integer;
 begin
   try
-    if AItemLevel <= 0 or (AItemLevel > 15) then
+    if (AItemLevel <= 0) or (AItemLevel > 15) then
       Exit;
     LJSONData := TJSONData.Create;
     try

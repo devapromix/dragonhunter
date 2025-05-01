@@ -36,8 +36,6 @@ const
     FoodCategories + ',' + ScrollCategories;
 
 const
-  PotionLevel1 =
-    'MINIPOTION,MINILIFEPOTION,MINIMANAPOTION,MINIMEGAPOTION,MINIOILPOTION,';
   PotionLevel2 =
     'NORMPOTION,NORMLIFEPOTION,NORMMANAPOTION,NORMMEGAPOTION,NORMOILPOTION,';
   PotionLevel3 =
@@ -46,11 +44,7 @@ const
     'NANOPOTION,NANOLIFEPOTION,NANOMANAPOTION,NANOMEGAPOTION,NANOOILPOTION,';
   PotionLevel5 =
     'BIGPOTION,BIGLIFEPOTION,BIGMANAPOTION,BIGMEGAPOTION,BIGOILPOTION,';
-  PotionLevel6 = '';
-  PotionLevel7 = '';
 
-  WeaponLevel1 =
-    'STONEHAMMER,HATCHET,SHORTSWORD,HUNTBOW,LIGHTCROSSBOW,SMALLSHIELD,';
   WeaponLevel2 = 'WARAXE,LONGBOW,SIEGECROSSBOW,LARGESHIELD,';
   WeaponLevel3 = 'LARGEAXE,TOWERSHIELD,';
   WeaponLevel4 = 'BROADAXE,GOTHICSHIELD,';
@@ -58,7 +52,6 @@ const
   WeaponLevel6 = 'GREATAXE,';
   WeaponLevel7 = 'GIANTAXE,';
 
-  AmmuntLevel1 = 'LEATHERARMOR,CAP,MESHBOOTS,';
   AmmuntLevel2 = 'STUDDEDLEATHER,HELM,HEAVYBOOTS,';
   AmmuntLevel3 = 'RINGMAIL,';
   AmmuntLevel4 = 'SCALEMAIL,';
@@ -66,7 +59,6 @@ const
   AmmuntLevel6 = '';
   AmmuntLevel7 = '';
 
-  RarityLevel1 = 'EARTHRING,';
   RarityLevel2 = 'FIRERING,';
   RarityLevel3 = '';
   RarityLevel4 = '';

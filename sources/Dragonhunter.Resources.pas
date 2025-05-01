@@ -327,11 +327,6 @@ begin
     if not FileExists(LFileName) then
       Exit;
     LZip := TZip.Create(nil);
-    if not LZip.FileExists(AFileName) then
-    begin
-      Error.Add('File not found: ' + AFileName);
-      Exit;
-    end;
     try
       LJSONData := LZip.ExtractTextFromFile(LFileName, AFileName);
       Result := TJSONObject.ParseJSONValue(LJSONData) as TJSONArray;
