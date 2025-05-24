@@ -276,9 +276,10 @@ var
 
   procedure RenderItemInfo(AItemIndex: Integer);
   const
-    Effects = 'LIFE,MANA,FILL,ANTIDOTE,KEY,TELEPORT,SUMMON,IDENTIFY,PORTAL,DISPEL,REPAIR,REPAIRALL';
-    EffLangNums: array [0 .. 11] of Integer = (223, 224, 80, 79, 112, 272, 273,
-      274, 275, 230, 270, 271);
+    Effects = 'LIFE,MANA,FILL,ANTIDOTE,KEY,TELEPORT,SUMMON,' +
+      'IDENTIFY,PORTAL,DISPEL,REPAIR,REPAIRALL,DETECTION';
+    EffLangNums: array [0 .. 12] of Integer = (223, 224, 80, 79, 112, 272, 273,
+      274, 275, 230, 270, 271, 276);
     Atributes = 'STRENGTH,DEXTERITY,INTELLIGENCE,PERCEPTION,SPEED';
   var
     LEffects, LAtributes: TArray<string>;

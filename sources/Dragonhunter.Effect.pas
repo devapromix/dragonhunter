@@ -6,11 +6,12 @@ uses
   Graphics;
 
 type
-  TEffectEnum = (efBlind, efPoison, efLife, efMana, efWizardEye, efWebbed);
+  TEffectEnum = (efBlind, efPoison, efLife, efMana, efWizardEye, efWebbed,
+    efHypervision);
 
 const
   EffectName: array [TEffectEnum] of string = ('Blind', 'Poison', 'VialOfLife',
-    'VialOfMana', 'WizardEye', 'Webbed');
+    'VialOfMana', 'WizardEye', 'Webbed', 'Hypervision');
 
 type
   TEffects = class(TObject)
