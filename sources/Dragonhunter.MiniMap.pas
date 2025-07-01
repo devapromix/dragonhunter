@@ -1,4 +1,4 @@
-﻿unit Trollhunter.MiniMap;
+﻿unit Dragonhunter.MiniMap;
 
 interface
 
@@ -106,7 +106,7 @@ begin
       end;
     end;
 
-    // Show all enemies on map. "Глаз Чародея".
+    // Show all enemies on map.
     with Creatures do
       if Character.TempSys.IsVar('WizardEye') then
         for J := 0 to High(Enemy) do

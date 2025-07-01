@@ -6,7 +6,7 @@ uses
   Graphics,
   Classes,
   Trollhunter.CustomMap,
-  Trollhunter.MiniMap,
+  Dragonhunter.MiniMap,
   Dragonhunter.Item,
   Dragonhunter.Script,
   Trollhunter.Map.Tiles,
