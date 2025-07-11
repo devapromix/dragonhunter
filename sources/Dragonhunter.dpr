@@ -61,7 +61,7 @@ uses
   Trollhunter.CustomMap in 'Trollhunter.CustomMap.pas',
   Dragonhunter.Item.Random in 'Dragonhunter.Item.Random.pas',
   Dragonhunter.Character in 'Dragonhunter.Character.pas',
-  Trollhunter.BaseCreature in 'Trollhunter.BaseCreature.pas',
+  Dragonhunter.BaseCreature in 'Dragonhunter.BaseCreature.pas',
   Trollhunter.Creature in 'Trollhunter.Creature.pas',
   Trollhunter.Enemy in 'Trollhunter.Enemy.pas',
   Trollhunter.Formulas in 'Trollhunter.Formulas.pas',
@@ -86,7 +86,7 @@ var
 
 begin
   UniqueMapping := CreateFileMapping($FFFFFFFF, nil, PAGE_READONLY, 0, 32,
-    'm6gh7jq2lb6mbghsdhgksakbrjlsrnuaiopfrwchmaltdr45');
+    'm6gh7jq2lb6mbghsdhgksakbrjtvqm7lsrnuaiopfrwchmaltdr45');
   if UniqueMapping = 0 then
     Halt
   else if GetLastError = ERROR_ALREADY_EXISTS then

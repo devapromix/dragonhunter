@@ -6,7 +6,7 @@ uses
   Types,
   Graphics,
   Trollhunter.Creature.Pattern,
-  Trollhunter.BaseCreature,
+  Dragonhunter.BaseCreature,
   Trollhunter.Decorator,
   Trollhunter.TempSys;
 
