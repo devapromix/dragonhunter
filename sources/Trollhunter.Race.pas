@@ -55,16 +55,12 @@ uses
   Vcl.Dialogs,
   System.SysUtils,
   System.JSON,
-{$IFDEF ELINOOR}
-  Elinoor.MainForm,
-{$ELSE}
-  Engine.MainForm,
-{$ENDIF}
+  Dragonhunter.MainForm,
   Trollhunter.Error,
   Trollhunter.Zip,
   Trollhunter.Utils;
 
-  { TRace }
+{ TRace }
 
 constructor TRace.Create;
 begin

@@ -54,7 +54,7 @@ uses
   Trollhunter.Utils,
   Trollhunter.Error,
   Trollhunter.Creatures,
-  Engine.MainForm,
+  Dragonhunter.MainForm,
   Trollhunter.Item.Pattern;
 
 var

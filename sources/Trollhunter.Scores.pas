@@ -35,7 +35,7 @@ uses
   Trollhunter.Utils,
   Trollhunter.Zip,
   Trollhunter.Error,
-  Engine.MainForm,
+  Dragonhunter.MainForm,
   Trollhunter.Lang;
 
 { TScores }
@@ -117,8 +117,8 @@ end;
 function TScores.GetValue(T, I: Integer): string;
 begin
   Result := P[T][I];
-  //if (T = 4) then
-  //  Result := Language.GetStr(StrToInt(P[T][I]));
+  // if (T = 4) then
+  // Result := Language.GetStr(StrToInt(P[T][I]));
 end;
 
 procedure TScores.Load;
