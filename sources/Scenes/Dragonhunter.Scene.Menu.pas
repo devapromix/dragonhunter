@@ -41,7 +41,7 @@ uses
   Trollhunter.Game,
   Trollhunter.Scene.Load,
   Trollhunter.Error,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Dragonhunter.Scene.Settings,
   Trollhunter.Lang,
   Trollhunter.Settings,

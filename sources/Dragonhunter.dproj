@@ -140,7 +140,7 @@
         <DCCReference Include="Trollhunter.Graph.pas"/>
         <DCCReference Include="Trollhunter.Craft.pas"/>
         <DCCReference Include="Dragonhunter.Map.pas"/>
-        <DCCReference Include="Trollhunter.Utils.pas"/>
+        <DCCReference Include="Dragonhunter.Utils.pas"/>
         <DCCReference Include="Dragonhunter.Item.pas"/>
         <DCCReference Include="Trollhunter.Trap.pas"/>
         <DCCReference Include="Dragonhunter.Script.pas"/>

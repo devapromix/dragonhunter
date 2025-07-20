@@ -122,7 +122,7 @@ uses
   Dragonhunter.Scene.LevelUp,
   Trollhunter.Creatures,
   Trollhunter.Projectiles,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Dragonhunter.Map,
   Dragonhunter.Scene.Item,
   Trollhunter.Scene.Game,

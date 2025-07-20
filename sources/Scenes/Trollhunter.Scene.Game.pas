@@ -42,7 +42,7 @@ uses
   Trollhunter.Graph,
   Trollhunter.Creatures,
   Trollhunter.Scenes,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Trap,
   Trollhunter.Log,
   Trollhunter.Game,

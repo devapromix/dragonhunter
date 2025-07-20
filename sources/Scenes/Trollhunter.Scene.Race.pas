@@ -42,7 +42,7 @@ uses
   Dragonhunter.Color,
   Trollhunter.Scene.Inv,
   Trollhunter.Race,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Dragonhunter.Item,
   Trollhunter.Skill,
   Trollhunter.Item.Pattern;

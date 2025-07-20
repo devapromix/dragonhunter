@@ -40,7 +40,7 @@ uses
   Trollhunter.Error,
   Trollhunter.Log,
   Trollhunter.Lang,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Dragonhunter.Terminal,
   Dragonhunter.Frame;
 

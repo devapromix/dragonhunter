@@ -45,7 +45,7 @@ implementation
 
 uses
   System.SysUtils,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Graph,
   Dragonhunter.Color,
   Trollhunter.Light,

@@ -55,7 +55,7 @@ uses
   Windows,
   Types,
   SysUtils,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Error,
   Trollhunter.Graph,
   Trollhunter.Projectiles,

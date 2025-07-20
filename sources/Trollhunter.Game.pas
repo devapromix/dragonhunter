@@ -37,7 +37,7 @@ uses
   System.SysUtils,
   Dragonhunter.MainForm,
   Dragonhunter.Map,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Creatures,
   Trollhunter.Log,
   Trollhunter.Zip,

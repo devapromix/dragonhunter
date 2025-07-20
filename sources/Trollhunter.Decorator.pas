@@ -123,7 +123,7 @@ uses
   Trollhunter.Light,
   Dragonhunter.Map,
   Trollhunter.Map.Tiles,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Dragonhunter.Map.Pattern;
 
 { TDecorators }

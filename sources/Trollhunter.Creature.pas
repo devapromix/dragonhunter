@@ -40,7 +40,7 @@ uses
   SysUtils,
   Dragonhunter.Map,
   Trollhunter.Map.Tiles,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Creatures,
   Trollhunter.Lang,
   Trollhunter.Log,

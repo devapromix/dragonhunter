@@ -51,7 +51,7 @@ implementation
 
 uses
   SysUtils,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Lang;
 
 type

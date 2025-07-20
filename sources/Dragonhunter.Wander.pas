@@ -34,7 +34,7 @@ uses
   System.Math,
   System.SysUtils,
   Vcl.Graphics,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Graph,
   Trollhunter.Creatures,
   Dragonhunter.Terminal,

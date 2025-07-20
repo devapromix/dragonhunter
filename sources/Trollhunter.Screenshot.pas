@@ -9,8 +9,8 @@ implementation
 uses
   Windows,
   SysUtils,
-  Trollhunter.Utils,
   PNGImage,
+  Dragonhunter.Utils,
   Trollhunter.Graph,
   Trollhunter.Creatures,
   Trollhunter.Error;

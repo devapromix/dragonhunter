@@ -138,7 +138,7 @@ uses
   Dragonhunter.Map,
   Trollhunter.Log,
   Dragonhunter.MainForm,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Error,
   Trollhunter.Settings,
   Trollhunter.Lang,

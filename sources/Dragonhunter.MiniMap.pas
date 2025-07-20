@@ -28,7 +28,7 @@ uses
   Dragonhunter.Map,
   Trollhunter.Map.Tiles,
   Trollhunter.Creatures,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Dragonhunter.Color,
   Trollhunter.Graph,
   Trollhunter.GlobalMap;

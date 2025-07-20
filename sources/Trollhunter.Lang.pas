@@ -51,7 +51,7 @@ uses
   System.JSON,
   Vcl.Dialogs,
   Trollhunter.Zip,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Error,
   Trollhunter.Creatures,
   Dragonhunter.MainForm,

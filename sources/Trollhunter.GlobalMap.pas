@@ -6,7 +6,7 @@ uses
   Classes,
   Trollhunter.CustomMap,
   Trollhunter.Town,
-  Trollhunter.Utils;
+  Dragonhunter.Utils;
 
 var
   IsGlobalMap: Boolean = False;

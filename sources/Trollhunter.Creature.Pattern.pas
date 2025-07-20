@@ -72,7 +72,7 @@ uses
   System.JSON,
   Neon.Core.Persistence,
   Neon.Core.Persistence.JSON,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Log,
   Trollhunter.Lang,
   Trollhunter.Error,

@@ -38,7 +38,7 @@ uses
   SysUtils,
   Trollhunter.Error,
   Trollhunter.Graph,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Scene.Game,
   Trollhunter.Creatures,
   Trollhunter.Scene.Inv,

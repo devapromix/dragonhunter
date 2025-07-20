@@ -36,7 +36,7 @@ uses
   Dragonhunter.Character,
   Trollhunter.Game,
   Trollhunter.Creatures,
-  Trollhunter.Utils;
+  Dragonhunter.Utils;
 
 { TEffects }
 

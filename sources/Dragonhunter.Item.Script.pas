@@ -16,7 +16,7 @@ uses
   Trollhunter.Item.Pattern,
   Dragonhunter.Item,
   Trollhunter.Formulas,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Dragonhunter.Effect;
 
 { TItemScript }

@@ -20,7 +20,7 @@ type
 implementation
 
 uses
-  Trollhunter.Utils;
+  Dragonhunter.Utils;
 
 { TCustomMap }
 

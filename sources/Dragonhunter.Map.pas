@@ -100,7 +100,7 @@ uses
   SysUtils,
   Dragonhunter.AStar,
   Trollhunter.Creatures,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Error,
   Trollhunter.Graph,
   Dragonhunter.Color,

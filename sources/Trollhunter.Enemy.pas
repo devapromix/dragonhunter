@@ -27,7 +27,7 @@ uses
   Types,
   SysUtils,
   Trollhunter.Creatures,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Log,
   Trollhunter.Lang,
   Trollhunter.Error,

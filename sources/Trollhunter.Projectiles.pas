@@ -34,7 +34,7 @@ uses
   Math,
   Types,
   Trollhunter.Graph,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Dragonhunter.Color;
 
 { TProjectile }

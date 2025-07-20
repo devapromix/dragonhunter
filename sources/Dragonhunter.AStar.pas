@@ -4,7 +4,7 @@ interface
 
 uses
   Types,
-  Trollhunter.Utils;
+  Dragonhunter.Utils;
 
 const
   MAXLEN = 500;

@@ -27,7 +27,7 @@ implementation
 uses
   SysUtils,
   Graphics,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Graph,
   Dragonhunter.Scene.Menu,
   Trollhunter.Scenes,

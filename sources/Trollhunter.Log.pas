@@ -33,7 +33,7 @@ var
 implementation
 
 uses
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Graph,
   Dragonhunter.Color,
   Dragonhunter.AStar;

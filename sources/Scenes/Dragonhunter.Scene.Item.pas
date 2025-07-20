@@ -52,7 +52,7 @@ uses
   Trollhunter.Game,
   Trollhunter.Scene.Game,
   Dragonhunter.Color,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Dragonhunter.Map,
   Trollhunter.Map.Tiles,
   Trollhunter.Lang,

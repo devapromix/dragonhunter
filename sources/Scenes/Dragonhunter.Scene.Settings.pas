@@ -36,7 +36,7 @@ uses
   Dragonhunter.MainForm,
   Dragonhunter.Scene.Menu,
   Trollhunter.Error,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Lang,
   Trollhunter.Settings,
   Dragonhunter.Terminal,

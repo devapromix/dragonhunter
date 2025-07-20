@@ -30,7 +30,7 @@ uses
   Dragonhunter.Map,
   Trollhunter.Graph,
   Trollhunter.Creatures,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Log,
   Trollhunter.Lang,
   Trollhunter.Decorator,

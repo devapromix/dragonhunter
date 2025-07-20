@@ -27,7 +27,7 @@ implementation
 
 uses
   IniFiles,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Graph,
   Trollhunter.Creatures;
 

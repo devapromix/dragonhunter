@@ -22,7 +22,7 @@ uses
   System.SysUtils,
   System.JSON,
   Dragonhunter.Resources,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Log,
   Trollhunter.Error,
   Dragonhunter.Map;

@@ -28,7 +28,7 @@ uses
   Trollhunter.Graph in 'Trollhunter.Graph.pas',
   Trollhunter.Craft in 'Trollhunter.Craft.pas',
   Dragonhunter.Map in 'Dragonhunter.Map.pas',
-  Trollhunter.Utils in 'Trollhunter.Utils.pas',
+  Dragonhunter.Utils in 'Dragonhunter.Utils.pas',
   Dragonhunter.Item in 'Dragonhunter.Item.pas',
   Trollhunter.Trap in 'Trollhunter.Trap.pas',
   Dragonhunter.Script in 'Dragonhunter.Script.pas',

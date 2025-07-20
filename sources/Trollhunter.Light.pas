@@ -24,7 +24,7 @@ uses
   Graphics,
   SysUtils,
   Types,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Graph,
   Trollhunter.Creatures,
   Trollhunter.Decorator,

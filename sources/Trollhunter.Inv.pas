@@ -73,7 +73,7 @@ implementation
 
 uses
   SysUtils,
-  Trollhunter.Utils;
+  Dragonhunter.Utils;
 
 constructor TInv.Create(const AMaxCount, AMaxWeight: Integer);
 begin

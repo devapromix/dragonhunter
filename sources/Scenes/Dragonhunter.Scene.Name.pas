@@ -41,7 +41,7 @@ uses
   Dragonhunter.MainForm,
   Dragonhunter.Scene.Menu,
   Trollhunter.Name,
-  Trollhunter.Utils,
+  Dragonhunter.Utils,
   Trollhunter.Error,
   Trollhunter.Lang,
   Trollhunter.Scene.Race,
