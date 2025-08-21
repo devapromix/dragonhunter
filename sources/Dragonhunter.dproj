@@ -148,7 +148,7 @@
         <DCCReference Include="Trollhunter.Screenshot.pas"/>
         <DCCReference Include="Trollhunter.Log.pas"/>
         <DCCReference Include="Trollhunter.Game.pas"/>
-        <DCCReference Include="Trollhunter.Scores.pas"/>
+        <DCCReference Include="Dragonhunter.Scores.pas"/>
         <DCCReference Include="Dragonhunter.Color.pas"/>
         <DCCReference Include="Trollhunter.Name.pas"/>
         <DCCReference Include="Trollhunter.Map.Generator.pas"/>

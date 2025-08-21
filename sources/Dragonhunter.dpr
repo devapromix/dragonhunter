@@ -36,7 +36,7 @@ uses
   Trollhunter.Screenshot in 'Trollhunter.Screenshot.pas',
   Trollhunter.Log in 'Trollhunter.Log.pas',
   Trollhunter.Game in 'Trollhunter.Game.pas',
-  Trollhunter.Scores in 'Trollhunter.Scores.pas',
+  Dragonhunter.Scores in 'Dragonhunter.Scores.pas',
   Dragonhunter.Color in 'Dragonhunter.Color.pas',
   Trollhunter.Name in 'Trollhunter.Name.pas',
   Trollhunter.Map.Generator in 'Trollhunter.Map.Generator.pas',

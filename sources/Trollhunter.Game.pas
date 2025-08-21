@@ -4,7 +4,7 @@ interface
 
 uses
   Trollhunter.Race,
-  Trollhunter.Scores,
+  Dragonhunter.Scores,
   Dragonhunter.Resources;
 
 type
