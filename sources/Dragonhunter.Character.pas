@@ -436,7 +436,7 @@ end;
 
 procedure TCharacter.Melee(I: Integer);
 var
-  D, J: Integer;
+  D, J, LExp: Integer;
   N: string;
 begin
   with Creatures do
@@ -451,6 +451,7 @@ begin
         TrainSkill();
         if Enemy[I].Life.IsMin then
         begin
+          LExp := Enemy[I].Life.Max;
           if Enemy[I].Prop.AIType = 'BIGSLIME' then
           begin
             for J := 1 to 3 do
@@ -464,10 +465,10 @@ begin
           if (Rand(0, 9) = 0) then
             Items.Add(Enemy[I].Pos.X, Enemy[I].Pos.Y, Map.GetRandItemID);
           Log.Add(Format(Language.GetLang(73), [N])); // The %s dies.
-          if Character.AddExp(Enemy[I].Exp) then
+          if Character.AddExp(LExp) then
             Log.Add(Format(Language.GetLang(65), [Character.Prop.Level]));
           with Character do
-            Rating := Rating + Enemy[I].Exp;
+            Rating := Rating + LExp;
         end;
         if (Enemy[I].Prop.AIType = 'GOBLIN') then
         begin
