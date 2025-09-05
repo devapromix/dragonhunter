@@ -77,7 +77,8 @@ uses
   Dragonhunter.Wander in 'Dragonhunter.Wander.pas',
   Dragonhunter.Frame in 'Dragonhunter.Frame.pas',
   Dragonhunter.Map.Pattern in 'Dragonhunter.Map.Pattern.pas',
-  Dragonhunter.Item.Level in 'Dragonhunter.Item.Level.pas';
+  Dragonhunter.Item.Level in 'Dragonhunter.Item.Level.pas',
+  Dragonhunter.Item.Underground in 'Dragonhunter.Item.Underground.pas';
 
 {$R *.res}
 

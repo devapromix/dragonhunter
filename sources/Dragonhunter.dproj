@@ -190,6 +190,7 @@
         <DCCReference Include="Dragonhunter.Frame.pas"/>
         <DCCReference Include="Dragonhunter.Map.Pattern.pas"/>
         <DCCReference Include="Dragonhunter.Item.Level.pas"/>
+        <DCCReference Include="Dragonhunter.Item.Underground.pas"/>
         <None Include="Dragonhunter.todo"/>
         <BuildConfiguration Include="Debug">
             <Key>Cfg_2</Key>

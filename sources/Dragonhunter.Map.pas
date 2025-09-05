@@ -109,6 +109,7 @@ uses
   Dragonhunter.Map.Pattern,
   Trollhunter.Item.Pattern,
   Dragonhunter.Item.Default,
+  Dragonhunter.Item.Underground,
   Dragonhunter.Wander,
   Dragonhunter.Item.Level;
 
@@ -454,6 +455,8 @@ begin
     // Map Items
     Items := AppendToString('', MapPatterns.GetPattern.Items);
     Items := AppendToString(Items, DefaultItems.Items);
+    if MapPatterns.GetPattern.Underground then
+      Items := AppendToString(Items, UndergroundItems.Items);
     Items := AppendToString(Items, RandomScrolls);
     Items := AppendToString(Items, RandomPotions);
     Items := AppendToString(Items, LevelItems.GetItems(Level));
