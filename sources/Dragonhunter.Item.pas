@@ -648,17 +648,17 @@ end;
 
 function TItems.IsDollScript(const AScript: string): Boolean;
 var
-  K, J: Integer;
+  K, LItemIndex: Integer;
 begin
   Result := False;
   with Creatures.Character do
   begin
     for K := 1 to Inv.Count do
     begin
-      J := ItemIndex(K);
+      LItemIndex := ItemIndex(K);
       if Inv.GetDoll(K) then
       begin
-        if (AScript = ItemPatterns.Patterns[J].Script) then
+        if (AScript = ItemPatterns.Patterns[LItemIndex].Script) then
         begin
           Result := True;
           Exit;
@@ -730,7 +730,7 @@ end;
 procedure TItems.RepairAll;
 var
   LSlot: TSlot;
-  LTough: Word;
+  LTough: Integer;
 begin
   try
     with Creatures.Character.Inv do
