@@ -50,7 +50,7 @@ uses
   Dragonhunter.Color,
   Trollhunter.Error,
   Dragonhunter.Scene.Menu,
-  Trollhunter.Scene.Inv,
+  Dragonhunter.Scene.Inv,
   Trollhunter.Projectiles,
   Dragonhunter.Scene.Item,
   Trollhunter.Decorator,

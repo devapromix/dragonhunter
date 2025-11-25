@@ -1,4 +1,4 @@
-﻿unit Trollhunter.Scene.Inv;
+﻿unit Dragonhunter.Scene.Inv;
 
 interface
 
@@ -66,45 +66,46 @@ end;
 
 destructor TSceneInv.Destroy;
 begin
-  Icon.Free;
-  Hero.Free;
-  Item.Free;
+  FreeAndNil(Icon);
+  FreeAndNil(Hero);
+  FreeAndNil(Item);
   inherited;
 end;
 
 procedure TSceneInv.KeyDown(var Key: Word; Shift: TShiftState);
 var
-  I, C: Integer;
-  K: Word;
+  I, LCount: Integer;
+  LKey: Word;
 begin
   inherited;
   try
     case Key of
       38, 40:
         begin
-          C := Creatures.Character.Inv.Count;
-          if (C > 0) then
+          LCount := Creatures.Character.Inv.Count;
+          if (LCount > 0) then
           begin
             CursorPos := CursorPos + (Key - 39);
-            CursorPos := ClampCycle(CursorPos, 1, C);
+            CursorPos := ClampCycle(CursorPos, 1, LCount);
             Render;
           end;
         end;
       8:
         begin
-          C := Items.CellItemsCount(Creatures.Character.Pos.X, Creatures.Character.Pos.Y);
-          if (C > 0) then
+          LCount := Items.CellItemsCount(Creatures.Character.Pos.X,
+            Creatures.Character.Pos.Y);
+          if (LCount > 0) then
             Scenes.Scene := SceneItems;
         end;
       32:
         Scenes.Scene := SceneChar;
       13:
         begin
-          C := Creatures.Character.Inv.Count;
-          if (C > 0) then
+          LCount := Creatures.Character.Inv.Count;
+          if (LCount > 0) then
           begin
-            K := (ord('A') + CursorPos) - 1;
-            KeyDown(K, Shift);
+            LKey := (ord('A') + CursorPos) - 1;
+            KeyDown(LKey, Shift);
           end;
         end;
       27, 123:
@@ -205,10 +206,10 @@ procedure TSceneInv.Render;
 var
   S: string;
   I, ID, C, Y, W: Integer;
-  Tileset: Graphics.TBitmap;
+  LTileset: Graphics.TBitmap;
 begin
   inherited;
-  Tileset := Graphics.TBitmap.Create;
+  LTileset := Graphics.TBitmap.Create;
   try
     Y := 2;
     with Graph.Surface.Canvas do
@@ -233,12 +234,12 @@ begin
         Graph.Text.DrawOut(1, Y, S);
 
         if (ItemPatterns.Patterns[ID].Sprite = '') then
-          Tileset.Handle := Windows.LoadBitmap(hInstance,
+          LTileset.Handle := Windows.LoadBitmap(hInstance,
             PChar(Creatures.Character.Inv.GetIdent(I)))
         else
-          Tileset.Handle := Windows.LoadBitmap(hInstance,
+          LTileset.Handle := Windows.LoadBitmap(hInstance,
             PChar(ItemPatterns.Patterns[ID].Sprite));
-        Graph.BitmapFromTileset(Icon, Tileset, 0);
+        Graph.BitmapFromTileset(Icon, LTileset, 0);
         Items.Colors(Icon, ID);
         ScaleBmp(Icon, Graph.CharHeight, Graph.CharHeight);
         Icon.Transparent := True;
@@ -269,14 +270,15 @@ begin
         Graph.Text.BarOut('enter, a-' + Chr(96 + C),
           Language.GetLang(24), False);
       Graph.Text.BarOut('space', Language.GetLang(8), False);
-      if (Items.CellItemsCount(Creatures.Character.Pos.X, Creatures.Character.Pos.Y) > 0) then
+      if (Items.CellItemsCount(Creatures.Character.Pos.X,
+        Creatures.Character.Pos.Y) > 0) then
         Graph.Text.BarOut('backspace', Language.GetLang(111), False);
       Draw(Graph.Surface.Width - 72, Graph.CharHeight, Hero);
       if (ItemUseID <> '') then
         RenderUseIcon;
     end;
     Graph.Render;
-    Tileset.Free;
+    LTileset.Free;
   except
     on E: Exception do
       Error.Add('SceneInv.Render', E.Message);

@@ -38,7 +38,7 @@ uses
   Dragonhunter.Color,
   Dragonhunter.Utils,
   Trollhunter.Lang,
-  Trollhunter.Scene.Inv,
+  Dragonhunter.Scene.Inv,
   Trollhunter.Item.Pattern;
 
 { TSceneItem }

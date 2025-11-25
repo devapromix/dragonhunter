@@ -40,7 +40,7 @@ uses
   Dragonhunter.MainForm,
   Trollhunter.Scenes,
   Dragonhunter.Color,
-  Trollhunter.Scene.Inv,
+  Dragonhunter.Scene.Inv,
   Trollhunter.Race,
   Dragonhunter.Utils,
   Dragonhunter.Item,

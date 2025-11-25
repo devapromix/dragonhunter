@@ -11,7 +11,7 @@ uses
   Trollhunter.Scene.BaseGame in 'Scenes\Trollhunter.Scene.BaseGame.pas',
   Trollhunter.Scene.Game in 'Scenes\Trollhunter.Scene.Game.pas',
   Trollhunter.Scene.About in 'Scenes\Trollhunter.Scene.About.pas',
-  Trollhunter.Scene.Inv in 'Scenes\Trollhunter.Scene.Inv.pas',
+  Dragonhunter.Scene.Inv in 'Scenes\Dragonhunter.Scene.Inv.pas',
   Dragonhunter.Scene.Name in 'Scenes\Dragonhunter.Scene.Name.pas',
   Trollhunter.Scene.Records in 'Scenes\Trollhunter.Scene.Records.pas',
   Trollhunter.Scene.Load in 'Scenes\Trollhunter.Scene.Load.pas',

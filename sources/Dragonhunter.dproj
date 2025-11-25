@@ -123,7 +123,7 @@
         <DCCReference Include="Scenes\Trollhunter.Scene.BaseGame.pas"/>
         <DCCReference Include="Scenes\Trollhunter.Scene.Game.pas"/>
         <DCCReference Include="Scenes\Trollhunter.Scene.About.pas"/>
-        <DCCReference Include="Scenes\Trollhunter.Scene.Inv.pas"/>
+        <DCCReference Include="Scenes\Dragonhunter.Scene.Inv.pas"/>
         <DCCReference Include="Scenes\Dragonhunter.Scene.Name.pas"/>
         <DCCReference Include="Scenes\Trollhunter.Scene.Records.pas"/>
         <DCCReference Include="Scenes\Trollhunter.Scene.Load.pas"/>

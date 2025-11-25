@@ -41,7 +41,7 @@ uses
   Dragonhunter.Utils,
   Trollhunter.Scene.Game,
   Trollhunter.Creatures,
-  Trollhunter.Scene.Inv,
+  Dragonhunter.Scene.Inv,
   Dragonhunter.Item,
   Dragonhunter.Color,
   Trollhunter.Lang,

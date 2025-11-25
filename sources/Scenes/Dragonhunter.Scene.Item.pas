@@ -46,7 +46,7 @@ uses
   Trollhunter.Log,
   Trollhunter.Creatures,
   Trollhunter.Scenes,
-  Trollhunter.Scene.Inv,
+  Dragonhunter.Scene.Inv,
   Dragonhunter.Item,
   Trollhunter.Graph,
   Trollhunter.Game,
